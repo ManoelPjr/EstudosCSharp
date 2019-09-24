@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prestige.Biz", "Prestige.Biz\Prestige.Biz.csproj", "{35C9AA13-697C-4374-BD14-06965D70F767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prestige.BizTests", "Prestige.BizTests\Prestige.BizTests.csproj", "{095EFF95-FF43-4110-AA36-757F04A7453C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1FC48A7D-AFCB-45EE-A895-3C79D00AD86D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35C9AA13-697C-4374-BD14-06965D70F767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C9AA13-697C-4374-BD14-06965D70F767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C9AA13-697C-4374-BD14-06965D70F767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C9AA13-697C-4374-BD14-06965D70F767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095EFF95-FF43-4110-AA36-757F04A7453C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095EFF95-FF43-4110-AA36-757F04A7453C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095EFF95-FF43-4110-AA36-757F04A7453C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095EFF95-FF43-4110-AA36-757F04A7453C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{095EFF95-FF43-4110-AA36-757F04A7453C} = {1FC48A7D-AFCB-45EE-A895-3C79D00AD86D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D183D720-1114-4E4A-A8CA-B8868F52F7B1}
+	EndGlobalSection
+EndGlobal

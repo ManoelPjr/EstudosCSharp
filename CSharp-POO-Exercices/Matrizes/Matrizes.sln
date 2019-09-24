@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrizes", "Matrizes\Matrizes.csproj", "{EB8D505C-190C-42FD-8E6B-3751C4D9B729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio1", "Exercicio1\Exercicio1.csproj", "{06DD1C1C-DAFD-448D-ACF1-E3CD93789CF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio2", "Exercicio2\Exercicio2.csproj", "{46EF1AFA-7BE4-4085-8CEF-7CC1A2F9CF93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB8D505C-190C-42FD-8E6B-3751C4D9B729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8D505C-190C-42FD-8E6B-3751C4D9B729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8D505C-190C-42FD-8E6B-3751C4D9B729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8D505C-190C-42FD-8E6B-3751C4D9B729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DD1C1C-DAFD-448D-ACF1-E3CD93789CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DD1C1C-DAFD-448D-ACF1-E3CD93789CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DD1C1C-DAFD-448D-ACF1-E3CD93789CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DD1C1C-DAFD-448D-ACF1-E3CD93789CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46EF1AFA-7BE4-4085-8CEF-7CC1A2F9CF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46EF1AFA-7BE4-4085-8CEF-7CC1A2F9CF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46EF1AFA-7BE4-4085-8CEF-7CC1A2F9CF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46EF1AFA-7BE4-4085-8CEF-7CC1A2F9CF93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDFA6600-CFE4-4ED2-B00D-30D1A805480C}
+	EndGlobalSection
+EndGlobal

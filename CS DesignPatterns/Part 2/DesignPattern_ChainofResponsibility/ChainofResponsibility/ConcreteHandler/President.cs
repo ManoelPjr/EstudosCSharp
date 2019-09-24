@@ -1,0 +1,27 @@
+﻿using ChainofResponsibility.ClassHolding;
+using ChainofResponsibility.Handler;
+using System;
+
+namespace ChainofResponsibility.ConcreteHandler
+{
+    /// <summary>
+    /// The 'ConcreteHandler' class
+    /// </summary>
+    class President : Approver
+    {
+        public override void ProcessRequest(Purchase purchase)
+        {
+            if (purchase.Amount < 100000.0)
+            {
+                Console.WriteLine("{0} approved request# {1}",
+                  this.GetType().Name, purchase.Number);
+            }
+            else
+            {
+                Console.WriteLine(
+                  "Request# {0} requires an executive meeting!",
+                  purchase.Number);
+            }
+        }
+    }
+}
