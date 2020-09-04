@@ -6,7 +6,9 @@ namespace GenericsCS
     {
         static void Main(string[] args)
         {
-            PrintService printService = new PrintService();
+            PrintService<int> printService = new PrintService<int>();
+            PrintService<string> printServiceStr = new PrintService<string>();
+
             Console.Write("How many values? ");
             int n = int.Parse(Console.ReadLine());
             for (int i = 0; i < n; i++)
@@ -16,6 +18,16 @@ namespace GenericsCS
             }
             printService.Print();
             Console.WriteLine("First: " + printService.First());
+
+            Console.Write("How many names? ");
+            int n2 = int.Parse(Console.ReadLine());
+            for (int i = 0; i < n2; i++)
+            {
+                string x = Console.ReadLine();
+                printServiceStr.AddValue(x);
+            }
+            printServiceStr.Print();
+            Console.WriteLine("First: " + printServiceStr.First());
         }
     }
 }
